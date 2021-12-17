@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 0 20% 5% 20%;
+}
+
+.HeaderLogo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.HeaderNav {
+    display: flex;
+    list-style-type: none;
+}
+
+
+.HeaderNav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: block;
+    padding: 1em;
+}
