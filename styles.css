@@ -7,13 +7,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000000;
+    background-color: #fff6f6;
     padding: 0 20% 5% 20%;
 }
 
 .HeaderLogo {
     font-size: 24px;
-    color: gray;
+    color: rgb(0, 0, 0);
 }
 
 .HeaderNav {
@@ -25,23 +25,23 @@
 .HeaderNav a {
     text-decoration: none;
     font-size: 18px;
-    color: gray;
+    color: rgb(0, 0, 0);
     display: block;
     padding: 1em;
 }
 
 .mainsection1text {
     font-size: 36px;
-    color: gray;
+    color: black;
     font-weight: 800;
-    float: left;
+    float: left;    
 }
 
 .section1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #000000;
+    background-color: #ffffff;
     padding: 0 15% 3% 15%;
 }
 
@@ -49,18 +49,54 @@
     margin-top: 10px;
     margin-bottom: 16px;
     margin-right: 20px;
-    color: white;
+    color: rgb(3, 0, 0);
     font-size: 18px;
     float: left;
     text-align: left;
 }
 
 .image1 {
+    border: 2px rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: double;
+    width: 800px;
+    height: 350px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff;
+    padding: 0 15% 3% 15%;
+}
+
+.secondarysection2text {
+    margin-top: 10px;
+    margin-bottom: 16px;
+    margin-right: 20px;
+    color: rgb(3, 0, 0);
+    font-size: 18px;
+    float: left;
+    text-align: justify;
+}
+
+.mainsection2text {
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    float: left;
+}
+
+.image2 {
+    border: 2px rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: double;
     width: 700px;
     height: 300px;
     max-width: 100%;
     max-height: 100%;
-    padding: 1px;
-    border: 2px rgb(255, 255, 255);
-
 }
+
